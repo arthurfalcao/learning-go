@@ -11,3 +11,12 @@
 ```zsh
   go run main.go
 ```
+
+## commands
+
+* **reflect.TypeOf(variable)** retorna o tipo
+* **array := []string{"string"}** é um slice, que pode modificar o tamanho do array
+* **var array = [4]string** é um array, com tamanho fixo
+* **len(array)** retorna o tamanho do array
+* **cap(array)** retorna a capaciadade do array
+* **array = append(array, "string")** adiciona um novo item ao array e retorna
